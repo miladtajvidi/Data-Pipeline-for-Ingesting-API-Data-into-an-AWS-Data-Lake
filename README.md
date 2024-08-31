@@ -13,7 +13,7 @@ Python: For scripting and API integration.<br>
 Public API: Choose a public API that provides data in a structured format (e.g., JSON, CSV).
 
 
-## 1. [API Selection \& Setup](API%20Selection%20and%20Setup/readme.md)
+## 1. [API Selection \& Setup](API%20Selection%20and%20Setup/README.md)
 
 ## 2. [AWS Setup](AWS%20Setup/README.md)
 
