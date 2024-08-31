@@ -3,40 +3,24 @@
 ## Project Overview
 Designing and implementing a data pipeline that regularly ingests data from a public API into an AWS data lake. The data pipeline will ensure that the data is consistently updated and available for querying using AWS Athena. The project will showcase the use of various AWS services such as S3, Glue, and Athena, along with API integration and data pipeline design.
 
-## Objectives
-Implement a data pipeline to ingest data from an API into an AWS data lake.
-Ensure that the ingested data is regularly updated and available for analysis.
-Demonstrate the ability to query the ingested data using AWS Athena.
-Showcase the design and management of a data lake architecture.
+
 
 ## Tools & Technologies
-AWS S3: For storing raw and processed data.
-AWS Glue: For ETL (Extract, Transform, Load) operations.
-AWS Athena: For querying the data stored in S3.
-Python/Java: For scripting and API integration.
+AWS S3: For storing raw and processed data.<br>
+AWS Glue: For ETL (Extract, Transform, Load) operations.<br>
+AWS Athena: For querying the data stored in S3.<br>
+Python/Java: For scripting and API integration.<br>
 Public API: Choose a public API that provides data in a structured format (e.g., JSON, CSV).
 
 
-## 1. API Selection \& Setup
-CoinGecko API (Cryptocurrency Data)
-* Data Types: Cryptocurrency prices, market capitalization, trading volume, historical data, exchange information.
-* Update Frequency: Cryptocurrency prices and market data are updated in real-time.
-* Data Volume: You can access a wide range of data points across thousands of cryptocurrencies, providing substantial data for ingestion and analysis.
+## 1. [API Selection \& Setup](API%20Selection%20and%20Setup/readme.md)
 
-[CoinGecko API documentation](https://docs.coingecko.com/v3.0.1/reference/introduction)
+## 2. [AWS Setup](AWS%20Setup/README.md)
 
-Here’s a basic example to fetch the current market data for Bitcoin using the CoinGecko API:
+## 3. [Data Pipeline Design](Data%20Pipeline%20Design/README.md)
 
-```
-import requests
+## 4. [Automation](Automation/README.md)
 
-url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+## 5. [Data Lake Management](Data%20Lake%20Management/README.md)
 
-response = requests.get(url)
-
-if response.status_code == 200:
-    data = response.json()
-    print(data)
-else:
-    print(f"Failed to fetch data: {response.status_code}")
-```
+## 6. [Testing and Validation](Testing%20and%20Validation/README.md)
