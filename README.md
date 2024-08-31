@@ -9,7 +9,7 @@ Designing and implementing a data pipeline that regularly ingests data from a pu
 AWS S3: For storing raw and processed data.<br>
 AWS Glue: For ETL (Extract, Transform, Load) operations.<br>
 AWS Athena: For querying the data stored in S3.<br>
-Python/Java: For scripting and API integration.<br>
+Python: For scripting and API integration.<br>
 Public API: Choose a public API that provides data in a structured format (e.g., JSON, CSV).
 
 
