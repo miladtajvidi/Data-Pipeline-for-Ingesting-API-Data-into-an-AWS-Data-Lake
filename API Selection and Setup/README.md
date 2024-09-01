@@ -28,7 +28,7 @@ else:
 
 ```
 
-Please note that this IS NOT the secure way to make an API request. In the next section, [AWS Setup](./AWS%20Setup/README.md), we'll use AWS Secrets Manager to store our API key. Below is an example of how you would retrieve the API key from Secrets Manager using AWS SDK: <br>
+Please note that this IS NOT the secure way to make an API request. In the next section, [AWS Setup](../AWS%20Setup/README.md), we'll use AWS Secrets Manager to store our API key. Below is an example of how you would retrieve the API key from Secrets Manager using AWS SDK: <br>
 
 ```python
 import boto3
