@@ -9,8 +9,10 @@ Designing and implementing a data pipeline that regularly ingests data from a pu
 AWS S3: For storing raw and processed data.<br>
 AWS Glue: For ETL (Extract, Transform, Load) operations.<br>
 AWS Athena: For querying the data stored in S3.<br>
+AWS Secrets Manager: For storing our API key securely<br>
+AWS Lambda: For serverless implementation<br>
 Python: For scripting and API integration.<br>
-Public API: Choose a public API that provides data in a structured format (e.g., JSON, CSV).
+Public API: CoinBase API that provides data in a structured format (e.g., JSON, CSV).
 
 
 ## 1. [API Selection \& Setup](API%20Selection%20and%20Setup/README.md)
