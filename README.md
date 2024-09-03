@@ -13,6 +13,7 @@ AWS Secrets Manager: For storing our API key securely<br>
 AWS SNS: For notifications<br>
 AWS SQS: For buffering(Optional)<br>
 AWS CloudWatch: For monitoring<br>
+AWS CloudTrail: For auditing and logging API calls<br>
 AWS Lambda: For serverless implementation<br>
 Python: For scripting and API integration<br>
 Public API: CoinBase API that provides data in a structured format (e.g., JSON, CSV).
