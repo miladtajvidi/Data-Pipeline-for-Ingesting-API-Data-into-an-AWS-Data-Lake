@@ -8,7 +8,7 @@ Designing and implementing a data pipeline that regularly ingests data from a pu
 ## Tools & Technologies
 AWS S3: For storing raw and processed data<br>
 AWS Glue: For ETL (Extract, Transform, Load) operations<br>
-AWS Athena: For querying the data stored in S<br>
+AWS Athena: For querying the data stored in S3<br>
 AWS Secrets Manager: For storing our API key securely<br>
 AWS SNS: For notifications<br>
 AWS SQS: For buffering(Optional)<br>
