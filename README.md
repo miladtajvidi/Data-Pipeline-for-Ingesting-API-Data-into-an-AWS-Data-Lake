@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./de2.png" alt="Description of image" width="300">
+</p>
+
+
 # Data-Pipeline-for-Ingesting-API-Data-into-an-AWS-Data-Lake
 
 ## Project Overview
